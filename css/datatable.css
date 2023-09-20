@@ -1,0 +1,26 @@
+/* Estilo para los encabezados de columna */
+#miTabla thead th {
+    background-color: #aed9eb; /* Color de fondo del encabezado */
+    color: #000000; /* Color del texto en el encabezado */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  
+  /* Estilo para las filas impares */
+  #miTabla tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas impares */
+  }
+  
+  /* Estilo para las filas pares */
+  #miTabla tbody tr:nth-child(even) {
+    background-color: #fff; /* Color de fondo para filas pares */
+  }
+  
+  /* Estilo para las celdas */
+  #miTabla tbody td {
+    padding: 8px; /* Espaciado interno en las celdas */
+  }
+  
+  /* Estilo para el contenedor de la tabla */
+#miTabla_wrapper {
+  margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+}

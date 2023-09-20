@@ -1,0 +1,30 @@
+/* Estilos para la tabla */
+#miTabla {
+  background-color: rgb(rgb(57, 10, 187));
+  width: 100%; /* O ajusta el ancho según tus necesidades */
+  border-collapse: collapse;
+  margin-top: 30px; /* Ajusta la distancia desde la parte superior según sea necesario */
+}
+
+#miTabla th,
+#miTabla td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#miTabla th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el paginador de DataTables */
+.dataTables_paginate {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilos para el cuadro de búsqueda de DataTables */
+.dataTables_filter {
+  text-align: right;
+  margin-bottom: 10px;
+}

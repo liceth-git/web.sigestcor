@@ -1,0 +1,102 @@
+.create-button {
+  background-color: #1752cf; /* Color de fondo verde */
+  color: white; /* Color de texto blanco */
+  padding: 15px 30px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer;
+  font-size: 18px; /* Tamaño de fuente */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Cambia el color de fondo del botón al pasar el ratón */
+.create-button:hover {
+  background-color: #45a049; /* Color de fondo más oscuro al hacer hover */
+}
+
+/* Estilos para la tabla */
+#miTabla {
+  width: 100%;
+}
+
+#miTabla th,
+#miTabla td {
+  text-align: left;
+  padding: 8px;
+}
+
+#miTabla tbody tr.selected {
+  background-color: #f5f5f5;
+}
+
+/* Estilos para los botones de visualizar y exportar */
+#visualizarBtn,
+#exportarBtn {
+  background-color: #007BFF;
+  color: rgb(248, 246, 246);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#exportarBtn {
+  background-color: #911818;
+}
+  #createFormContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #createForm {
+    background: #f7f8fa;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0px 0px 10px 0px #000;
+  }
+
+  #createForm h2 {
+    text-align: center;
+  }
+
+  #createForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #createForm input[type="text"],
+  #createForm input[type="date"],
+  #createForm textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+
+  #createForm button[type="submit"],
+  #createForm button[type="button"] {
+    background-color: #007BFF;
+    color: rgb(248, 246, 246);;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  #createForm button[type="button"] {
+    background-color: #911818;
+  }

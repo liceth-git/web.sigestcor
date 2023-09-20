@@ -1,0 +1,11 @@
+
+.main-content {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Si deseas centrar la imagen horizontalmente en relación con su contenedor, puedes agregar lo siguiente: */
+.main-content img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+}
